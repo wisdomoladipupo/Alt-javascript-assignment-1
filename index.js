@@ -1,39 +1,23 @@
-const name = "wisdom"
+const name = "wisdom";
 
-const Age = "2 years"
+const Age = "2 years";
 
+let isMarried = true;
 
-
-
-let isMarried = true : false 
-
-
-
-if(isMarried){
-    alert("is married to zainab cuz she's my only bea")    
+if (isMarried) {
+  alert("is married to zainab cuz she's my only bea");
 }
 
-
-if(isMarried){
-
-}
+prompt("how long have you been married");
 
 function confirmName() {
-confirm("is your name wisdom")
+  confirm("is your name wisdom");
 }
 
-confirmName()
+confirmName();
 
 
 
-
-function showname(){
-    alert(`my name is ${name}`)
-}
-
-showname()
-
-
-console.log(name)
-console.log(Age)
-console.log(isMarried)
+console.log(name);
+console.log(Age);
+console.log(isMarried);
